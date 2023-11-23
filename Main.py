@@ -71,7 +71,7 @@ if __name__ == "__main__":   # python interpreter consideres this as a main func
     # STEP:6 --------Finally we got 2 methods regions (Allele sharing & Read tracing), this module intersects "Read tracing" with "Allele sharing" and prints the output.
     Final_output_print    =   merge_results(Allele_sharing_results, Read_tracing_result)    
 
-    # let's go print the output.
+    # test print. # Final_output_print will write the result into a file.
     for i in Final_output_print:
         print(i)
 
