@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 import gzip
 from tqdm import tqdm
 from collections import Counter
